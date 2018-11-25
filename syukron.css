@@ -1,0 +1,166 @@
+
+body{
+            background:#ffffff;
+}
+p {
+            font-family: "Comic sans MS", cursive, sans-serif;
+}
+.header {
+         
+            min-height:50px;
+            border-radius:3px;       
+            background:#A6D1E0;       
+}
+.container {
+            overflow:hidden;
+            width:80%;
+            margin: auto;
+            display: block;
+            
+}
+.header #logo {
+            float:left;
+            margin-top:auto;
+            margin-bottom: auto;
+            margin-left:30px;
+            font-family: 'Fredoka One', cursive;
+}
+.header h1 {
+            margin: 10px 0 20px 0;
+}
+.header #aa {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 40px;
+         
+}
+.header nav{
+            float:right;
+            margin-top: 30px;
+            margin-right: 10px;
+            font-family: 'Baloo Bhaina', cursive;
+            font-size: 15px;
+    
+}
+.header nav a:hover {
+    color: black;
+  }
+header li{
+    padding:0 5px 0 5px;
+}
+a {
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
+
+body {font-family: Verdana, sans-serif;}
+.slideBanner {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+            .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+
+            .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            }
+
+            .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            }
+
+            .active {
+            background-color: #717171;
+            }
+
+            .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+            }
+
+            @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
+
+            @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
+
+         
+        
+.row     {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center; 
+            width:80%;
+
+        }
+        .row .column {
+           
+            font-size: 10px;
+            text-align: center;
+            min-width: 25%;
+            margin-top:auto;
+            float:left;
+         
+          
+          }
+        .row .column img {
+            vertical-align: middle;
+    
+          
+          
+          }
+
+    .footer{
+              clear:both;
+              margin:auto;
+              background:#A6D1E0;  
+          }
+           .footer #copy{
+               float:left;
+               margin:auto;
+           }
+        .footer #logo {
+            float:right;
+            margin-top:auto;
+            margin: auto;
+            font-family: 'Fredoka One', cursive;
+}
+        #slide a:hover{
+            color: black;
+        }
+
+@media (max-width: 300px)  {
+        .text {font-size: 8px}
+        .row .column { max-width: 50%}
+        
+
+}
